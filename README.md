@@ -16,7 +16,6 @@ Android Image Cropper
 
 1. Include the library
 
-Add the JitPack repository to your build file 
 Add it in your root build.gradle at the end of repositories:
 
  ```
@@ -32,7 +31,7 @@ Add it in your root build.gradle at the end of repositories:
  
  ```
 	dependencies {
-	        implementation 'com.github.LouisP79:ImageCropper:Tag'
+	        implementation 'com.github.LouisP79:ImageCropper:V1.0.0'
 	}
  ```
 
