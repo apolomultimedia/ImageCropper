@@ -3,6 +3,7 @@ Android Image Cropper
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Android--Image--Cropper-green.svg?style=true)](https://android-arsenal.com/details/1/3487)
 [![Build Status](https://travis-ci.org/ArthurHub/Android-Image-Cropper.svg?branch=master)](https://travis-ci.org/ArthurHub/Android-Image-Cropper)
 [ ![Download](https://api.bintray.com/packages/arthurhub/maven/Android-Image-Cropper/images/download.svg) ](https://bintray.com/arthurhub/maven/Android-Image-Cropper/_latestVersion)
+[![](https://jitpack.io/v/LouisP79/ImageCropper.svg)](https://jitpack.io/#LouisP79/ImageCropper)
 
 
 **Powerful** (Zoom, Rotation, Multi-Source), **customizable** (Shape, Limits, Style), **optimized** (Async, Sampling, Matrix) and **simple** image cropping library for Android.
@@ -16,10 +17,23 @@ Android Image Cropper
 
 1. Include the library
 
+Add it in your root build.gradle at the end of repositories:
+
  ```
- dependencies {
-     api 'com.theartofdev.edmodo:android-image-cropper:2.8.+'
- }
+ allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+ ```
+ 
+ Add the dependency
+ 
+ ```
+	dependencies {
+	        implementation 'com.github.LouisP79:ImageCropper:V1.0.0'
+	}
  ```
 
 Add permissions to manifest
